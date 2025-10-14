@@ -5,7 +5,7 @@ This project focuses on fine-tuning **BERT** and **XLNet** transformer models on
 We use **HuggingFace Transformers**, **PyTorch**, and **scikit-learn** to train, evaluate, and compare the models’ performance.  
 The goal is to determine which transformer performs better for mental health-related text classification.
 
-## 🗃️ Dataset Description
+## Dataset Description
 
 - The dataset is a **Reddit mental health dataset** consisting of posts labeled under different categories:
   - **DA** – Depression & Anxiety  
@@ -29,6 +29,8 @@ How to Run the Code: Fine-Tuning BERT
 - Tokenize using bert-base-uncased.
 - Train and validate the model on an 80:20 split.
 - Display metrics like accuracy, F1 score, and confusion matrix.
+- Zip best model file and download
+- Unzip file and run the bert testing file after updating path of best model folder in code
 
 How to Run the Code: Fine-Tuning XLNet
 - Open xlnet-classifier.ipynb.
