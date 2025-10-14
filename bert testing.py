@@ -10,7 +10,7 @@ import torch
 # CONFIG
 # ==============================
 # 👉 Replace this path with where your final_bert_model folder is located
-model_path = r"C:\Ananya\PES\SEM 5\Machine Learning\mentalhealth\bert classifier\final_bert_model"
+model_path = r"your/path/here"
 
 
 # Check for GPU
@@ -68,3 +68,4 @@ while True:
 
     label = predict_text(user_input)
     print(f"🔹 Predicted Label: {label}\n")
+
