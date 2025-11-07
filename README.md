@@ -1,4 +1,4 @@
-# Mental Health Cause Detection
+# Mental Health Cause Detection with BERT and XLNet
 
 This project focuses on fine-tuning **BERT** and **XLNet** transformer models on a **labeled Reddit mental health dataset** to classify user posts into categories such as **Depression**, **Anxiety**, **Personality**, and more.
 
