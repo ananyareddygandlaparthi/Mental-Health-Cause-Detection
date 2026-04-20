@@ -43,20 +43,16 @@ This project analyzes Reddit posts from key mental health subreddits — **r/anx
 ## 📂 Project Structure
 
 ```
-Mental Health Cause Detection/
-├── LDDA1.csv                          # Dataset: Drug & Alcohol
-├── LDEL1.csv                          # Dataset: Early Life
-├── LDPF1.csv                          # Dataset: Personality
-├── LDTS1.csv                          # Dataset: Trauma & Stress
-│
-├── bert classifier/
-│   ├── bert-classifier.ipynb          # BERT fine-tuning notebook
-│   ├── bert testing.py                # Interactive CLI for BERT inference
-│   └── final_bert_model/             # Saved fine-tuned BERT model + tokenizer
-│
-└── xlnet classifier/
-    ├── XLNet_classifier.ipynb         # XLNet fine-tuning notebook
-    └── best_model_xlnet.pth           # Saved XLNet model weights
+Mental-Health-Cause-Detection/
+├── LDDA1.csv                  # Dataset: Drug & Alcohol
+├── LDEL1.csv                  # Dataset: Early Life
+├── LDPF1.csv                  # Dataset: Personality
+├── LDTS1.csv                  # Dataset: Trauma & Stress
+├── bert-classifier.ipynb      # BERT fine-tuning notebook
+├── bert testing.py            # Interactive CLI for BERT inference
+├── XLNet_classifier.ipynb     # XLNet fine-tuning notebook
+├── requirements.txt
+└── README.md
 ```
 
 ---
