@@ -167,8 +167,3 @@ The superior performance of XLNet is attributed to its **permutation-based langu
 
 ---
 
-## ⚠️ Notes
-
-- The `final_bert_model/` folder must contain the tokenizer files alongside the model weights for inference to work
-- XLNet weights (`best_model_xlnet.pth`) are ~450 MB — consider adding this to `.gitignore` and hosting separately via Git LFS or Google Drive
-- GPU is strongly recommended for training; inference works on CPU
